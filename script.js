@@ -24,3 +24,20 @@ console.log(luckyNum);
 // CHANGE the value stored in a variable (don't repeat LET)
 luckyNum = 8;
 console.log(luckyNum);
+
+// MATH OPERATORS (+, -, *, /)
+let age = 15;
+console.log(age);
+let ageInTen = age + 10;
+console.log(ageInTen);
+let ageDogYears = age / 7;
+console.log(ageDogYears);
+// Can also do math with just numbers
+let zeusHumanAge = 7 * 7;
+
+// Combine 2 "literal" Strings (CONCATENATION)
+console.log("hello " + " world");
+// OR concatenate a literal String with a VARIABLE!
+console.log("My age is " + age);
+console.log("My age in ten years is " + ageInTen);
+console.log("My age in dog years is " + ageDogYears);
