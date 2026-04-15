@@ -20,3 +20,7 @@ console.log(username);
 
 // DECLARE + ASSIGN in one step
 let luckyNum = 7;
+console.log(luckyNum);
+// CHANGE the value stored in a variable (don't repeat LET)
+luckyNum = 8;
+console.log(luckyNum);
