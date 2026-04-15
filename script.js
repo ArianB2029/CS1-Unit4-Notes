@@ -35,9 +35,18 @@ console.log(ageDogYears);
 // Can also do math with just numbers
 let zeusHumanAge = 7 * 7;
 
+// PEMDAS applies when you have multiple operators
+let score = 0;
+score = score + 20 - 2 / 3 * (6 - 5);
+console.log(score);
+
 // Combine 2 "literal" Strings (CONCATENATION)
 console.log("hello " + " world");
 // OR concatenate a literal String with a VARIABLE!
 console.log("My age is " + age);
 console.log("My age in ten years is " + ageInTen);
 console.log("My age in dog years is " + ageDogYears);
+
+// can also concatenate while making variables
+let message = "Welcome " + username + "!😁";
+console.log(message);
